@@ -36,7 +36,7 @@ async function fazerPlataforma() {
 
   const body = { user, password, subject, platform, questions }
   
-  fetch("http://165.227.145.29:3000", {
+  fetch("https://fazedor-de-plataformas-api.herokuapp.com/", {
     body: JSON.stringify(body),
     headers: {
         "Content-Type": "application/json"
